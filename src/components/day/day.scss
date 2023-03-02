@@ -1,0 +1,41 @@
+@import "../../styles/variables";
+
+.day_container {
+  margin-top: 30px;
+  padding: 25px;
+  max-width: 400px;
+  width: 100%;
+  background: $light-background;
+  box-shadow: 2px 5px 25px -3px grey;
+  border-radius: $border-radius;
+}
+
+.upper_block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .temperature {
+    font-size: 70px;
+    font-weight: 500;
+    color: $primary-color;
+  }
+  .day{
+    font-size: 25px;
+    color: $light-color;
+  }
+}
+
+.bottom_block {
+  .time,
+  .city {
+    font-size: 17px;
+    color: grey;
+  }
+}

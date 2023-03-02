@@ -1,0 +1,10 @@
+@import '~normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&family=Roboto&display=swap');
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.container{
+  padding-top: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
