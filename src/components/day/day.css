@@ -23,14 +23,17 @@
   font-weight: 500;
   color: #4793ff;
 }
-.upper_block .day {
+.upper_block .weather {
   font-size: 25px;
   color: black;
 }
 
-.bottom_block .time,
-.bottom_block .city {
+.bottom_block .parameter-row {
   font-size: 17px;
+  color: grey;
+}
+.bottom_block .city {
+  font-size: 25px;
   color: grey;
 }
 

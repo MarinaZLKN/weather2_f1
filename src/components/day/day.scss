@@ -26,16 +26,21 @@
     font-weight: 500;
     color: $primary-color;
   }
-  .day{
+  .weather{
     font-size: 25px;
     color: $light-color;
   }
 }
 
 .bottom_block {
-  .time,
-  .city {
+  .parameter-row{
     font-size: 17px;
     color: grey;
   }
+
+  .city{
+    font-size: 25px;
+    color: grey;
+  }
+
 }
