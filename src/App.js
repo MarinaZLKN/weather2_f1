@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Search from './components/search/search';
 import Day from './components/day/day';
 import Input from "./components/input";
+import Week from './components/week/week';
 import {WEATHER_API_URL, WEATHER_API_KEY} from './api';
 
 
@@ -28,9 +29,8 @@ function App () {
             })
             .catch((err) => console.log(err));
 
-    }
+    };
 
-    console.log(dayWeather);
     console.log(fiveDaysWeather);
 
         return (
@@ -38,6 +38,7 @@ function App () {
                 <Search />
                 <Input onSearchChange={handleOnSearchChange}/>
                 {dayWeather && <Day data={dayWeather}/>}
+                {fiveDaysWeather && <Week data={fiveDaysWeather}/>}
             </div>
         );
 }
